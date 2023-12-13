@@ -7,7 +7,7 @@ st.title('Analisis de los suicidios y la salud mental en Santiago de Chile')
 st.write('Durante este informe realizaremos el análisis de un DataFrame, el cual nos muestra datos acerca de los Antecedentes de Suicidios ocurridos en Santiago durante el año 2011 ocupamos las librerias de pandas y para mostrar varios datos importantes de este DataFrame y analizarlo de mejor manera. Además de ocupar la libreria Matplotlib para realizar graficos con la información del DataFrame')
 st.write("Nuestro objetivo como grupo será analizar los suicidios ocurridos en el año 2011 en Santiago, esto se debe a que queremos demostrar que la problemática de la salud mental en nuestra capital que viene de hace muchos años y lo poca importancia que se le da este asunto tan delicado como lo es el suicidio y nuestra salud mental a nivel país. Para poder realizar este trabajo ocuparemos bibliotecas como requests, json, pandas, streamlit, entre otras, para seleccionar y procesar datos donde encontraremos las comunas con mayor tasa de suicidio, también evidenciaremos que edades hay mayor tasa de suicidio y a su vez el sexo de la persona.")
 
-imagen = Image.open("/content/salud.jpg")
+imagen = Image.open("salud.jpg")
 st.image(imagen)
 
 st.markdown('---')
@@ -38,7 +38,7 @@ print(df.head())
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/11.png")
+imagen = Image.open("11.png")
 st.image(imagen)
 
 st.markdown('---')
@@ -52,7 +52,7 @@ print(df.describe())
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/22.png")
+imagen = Image.open("22.png")
 st.image(imagen)
 
 st.markdown('---')
@@ -68,7 +68,7 @@ print(top_5_Edad_Alto)
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/33.png")
+imagen = Image.open("33.png")
 st.image(imagen)
 
 st.markdown('---')
@@ -83,7 +83,7 @@ print(repeticiones)
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/44.png")
+imagen = Image.open("44.png")
 st.image(imagen)
 
 st.markdown('---')
@@ -108,7 +108,7 @@ plt.show()
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/graf1.png")
+imagen = Image.open("graf1.png")
 st.image(imagen)
 
 st.write("Con esta información nos damos cuenta de que las personas que más se suicidan estan entre la edad de 20 y 50 años, esto se debe a un gran cantidad de factores, pero nosotros creemos que los principales son las presiones laborales y económicas, el estigma y barreras para buscar ayuda; y los trastornos de salud mental.")
@@ -130,7 +130,7 @@ plt.show()
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/graf2.png")
+imagen = Image.open("graf2.png")
 st.image(imagen)
 
 st.write("Lo que podemos decir con este gráfico es que hay dos etapas en las que hay menos suicidos, una es a temprana edad como pueden ser los 11 años, y la otra es en la tercera edad, nosotros lo asociamos a la Perspectiva de Vida, Algunas personas mayores pueden tener una perspectiva de vida que les permite poner en contexto las dificultades actuales y adoptar una visión más amplia, mientras que cuando estas en una temprana edad tienes muchas menos preocupaciones y problemas por lo que la cantidad de suicidios es muchisimo menor.")
@@ -147,7 +147,7 @@ plt.show()
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/graf3.png")
+imagen = Image.open("graf3.png")
 st.image(imagen)
 
 st.write("Con esto podemos decir claramente hay muchos mas hombres que se suicidan que mujeres, y aunque hay muchos factores por lo que esto puede ocurrir, nosotros le dmos la razón a una Estigmatización de la salud mental, Los hombres a menudo enfrentan estigmatización en relación con los problemas de salud mental y pueden ser menos propensos a buscar ayuda o hablar abiertamente sobre sus problemas emocionales. ")
@@ -182,7 +182,7 @@ plt.show()
 
 st.markdown('Este seria el resultado:')
 
-imagen = Image.open("/content/graf4.png")
+imagen = Image.open("graf4.png")
 st.image(imagen)
 
 st.write("Con los resultdos de este gráfico concluimos que mientras menor sea la calidad de vida de la comuna, como en este caso lo es puente alto, mayor es la tasa de suicidio ya que otras comunas con mejor calidad de vida presentan una menor tasa de suicidio.")
